@@ -1,7 +1,6 @@
 import demo from '../app';
 
-test('should work', () => {
-  const value = 'demo';
-  const result = demo(value);
-  expect(result).toBe(value);
+test('The demo function return value', () => {
+  const receivedValue = 'test';
+  expect(demo('test')).toBe(receivedValue);
 });
